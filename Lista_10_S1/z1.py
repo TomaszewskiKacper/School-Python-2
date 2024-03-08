@@ -50,7 +50,7 @@ while True:
         os.makedirs(os.path.dirname(s_path), exist_ok=True) #create directory if not exist
         s_path += "plik_zaszyfrowany%{}_%{}%{}%{}.txt".format(shift, curr_time.year, curr_time.month, curr_time.day)
 
-        with open(s_path, "w") as s_file:   #save to file
+        with open(s_path, "w", encoding="utf-8") as s_file:   #save to file
             s_file.write(txt)
 
         break; #break out of loop if succes

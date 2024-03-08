@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ff8e088e-64f6-4d3c-9f2a-31bef5d50608</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>z2.py</StartupFile>
+    <StartupFile>statystyka.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="statystyka.py" />
+    <Compile Include="z3.py" />
     <Compile Include="z2.py" />
     <Compile Include="z1.py" />
     <Compile Include="SzyfrCezara.py" />
