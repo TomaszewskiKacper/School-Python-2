@@ -5,6 +5,10 @@ def szyfruj(text, shift):
     result = ""
     for el in text:     #loop through each character
         if el.isalpha():    #only letters
+            if el.lower() in ["\u0105", "\u0107", "\u0119", "\u0142", "\u0144", "\u00f3", "\u015b", "\u017a", "\u017c"]:    #ignore polish letters
+                result += el
+                continue
+
 
             szyfrowane = ord(el) + shift
 
@@ -26,12 +30,6 @@ def szyfruj(text, shift):
         
     return result
       
-
-
-
-
-
-
 
 def deszyfruj(text, shift):
     return szyfruj(text, -shift)
