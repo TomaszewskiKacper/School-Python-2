@@ -4,7 +4,7 @@ import os
 
 while True: #get directory path from user
     try:
-        path = input("Podaj sciezke do katalogu: \n")   #input from user
+        path = input("Podaj sciezke do katalogu: \n")   #input from user    ex:[kat1\kat2\]
         files = os.listdir(path)    #list of all files in directory
         break
     except FileNotFoundError:

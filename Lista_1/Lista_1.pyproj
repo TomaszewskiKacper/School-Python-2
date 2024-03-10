@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ff8e088e-64f6-4d3c-9f2a-31bef5d50608</ProjectGuid>
+    <ProjectGuid>ead35037-30cb-4c1b-bcdc-c6313fbaad37</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>z5.py</StartupFile>
+    <StartupFile>z3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Lista_10_S1</Name>
-    <RootNamespace>Lista_10_S1</RootNamespace>
+    <Name>Lista_1</Name>
+    <RootNamespace>Lista_1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,12 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="z5.py" />
-    <Compile Include="statystyka.py" />
     <Compile Include="z3.py" />
     <Compile Include="z2.py" />
     <Compile Include="z1.py" />
-    <Compile Include="SzyfrCezara.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

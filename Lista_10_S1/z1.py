@@ -15,7 +15,7 @@ while True:
         break;  #break out of loop if succes
     except FileNotFoundError:   #Nie znaleziono pliku
         print("Nie znaleziono podanego pliku...")
-    except IOError: #Nie mo¿na odczytaæ pliku
+    except IOError: #Nie mozna odczytac pliku
         print("Blad odczytu pliku...")
     except Exception as e:  
         print("Error: ", e)
